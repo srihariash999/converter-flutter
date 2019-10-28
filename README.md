@@ -1,6 +1,6 @@
 # converterinator_3000
 
-A practice converter app
+A unit-converter app made with flutter.
 
 ## Getting Started
 
