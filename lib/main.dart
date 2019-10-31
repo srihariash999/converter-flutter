@@ -1,3 +1,4 @@
+import 'package:converterinator_3000/currency_converter.dart';
 import 'package:converterinator_3000/length_converter.dart';
 import 'package:converterinator_3000/temperature_converter.dart';
 import 'package:converterinator_3000/weight_converter.dart';
@@ -22,6 +23,7 @@ class _ConverterState extends State<Converter> {
         '/lengthScreen': (context) => LengthConverter(),
         '/weightScreen': (context) => WeightConverter(),
         '/temperatureScreen': (context) => TemperatureConverter(),
+        '/currencyScreen': (conrext) => CurrencyConverter(),
       },
     );
   }

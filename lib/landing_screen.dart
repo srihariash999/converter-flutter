@@ -54,7 +54,9 @@ class LandingScreen extends StatelessWidget {
                 text: 'Currency',
                 rang: Colors.redAccent,
                 action: () {
-                  print('Currency box is tapped');
+                  Future.delayed(const Duration(milliseconds: 165), () {
+                   Navigator.pushNamed(context, '/currencyScreen');
+                  });
                 },
               ), // Currency Box
             ],
