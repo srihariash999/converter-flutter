@@ -1,6 +1,6 @@
 <h3> converterinator_3000</h3>
 
-A unit-converter app made with flutter.
+A unit converter app made with flutter.
 
 
 <h2> Screenshots: </h2>
