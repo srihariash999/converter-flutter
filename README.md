@@ -2,7 +2,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/srihariash999/converter-flutter)](https://github.com/srihariash999/converter-flutter/network)
 [![GitHub stars](https://img.shields.io/github/stars/srihariash999/converter-flutter)](https://github.com/srihariash999/converter-flutter/stargazers)
 
-A unit-converter app made with flutter.
+A unit converter app made with flutter.
 
 
 <h2> Screenshots: </h2>
