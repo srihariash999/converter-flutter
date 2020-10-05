@@ -16,6 +16,7 @@ class _ConverterState extends State<Converter> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: "Converter 3000",
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes:{
