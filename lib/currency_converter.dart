@@ -24,6 +24,7 @@ class _CurrencyConverterState extends State<CurrencyConverter> {
         scaffoldBackgroundColor: Color(0xFF0A0E21),
         textTheme: TextTheme(
           // We can't change text colors directly, we need to use text theme.
+            // ignore: deprecated_member_use
             body1: TextStyle(color: Colors.white)),
       ),
       home: Scaffold(
