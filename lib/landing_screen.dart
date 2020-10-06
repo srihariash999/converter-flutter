@@ -19,7 +19,7 @@ class LandingScreen extends StatelessWidget {
                 text: 'Length',
                 rang: Colors.teal,
                 action: () {
-                  Future.delayed(const Duration(milliseconds: 165), () {
+                  Future.delayed(const Duration(milliseconds: 155), () {
                     Navigator.pushNamed(context, '/lengthScreen');
                   });
                   
@@ -31,7 +31,7 @@ class LandingScreen extends StatelessWidget {
                 text: 'Weight',
                 rang: Colors.orangeAccent,
                 action: () {
-                   Future.delayed(const Duration(milliseconds: 165), () {
+                   Future.delayed(const Duration(milliseconds: 155), () {
                     Navigator.pushNamed(context, '/weightScreen');
                   });
                   
@@ -43,7 +43,7 @@ class LandingScreen extends StatelessWidget {
                 text: 'Temperature',
                 rang: Colors.blueAccent,
                 action: () {
-                   Future.delayed(const Duration(milliseconds: 165), () {
+                   Future.delayed(const Duration(milliseconds: 155), () { //changed it to 155
                    Navigator.pushNamed(context, '/temperatureScreen');
                   });
                 },
@@ -54,7 +54,7 @@ class LandingScreen extends StatelessWidget {
                 text: 'Currency',
                 rang: Colors.redAccent,
                 action: () {
-                  Future.delayed(const Duration(milliseconds: 165), () {
+                  Future.delayed(const Duration(milliseconds: 155), () {
                    Navigator.pushNamed(context, '/currencyScreen');
                   });
                 },
